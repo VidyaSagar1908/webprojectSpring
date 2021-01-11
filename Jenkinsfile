@@ -1,5 +1,5 @@
 pipeline { 
-    agent ChefAWS_Node 
+    agent any 
      tools {
         maven 'mvn.3.6.3'
           }
